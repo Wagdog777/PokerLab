@@ -1,11 +1,87 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "PokerLab.Gaming/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PokerLab.Gaming.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PokerLab.Gaming.dll": {}
+        }
+      },
+      "PokerLab.Gaming.Badgui/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "PokerLab.Gaming": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PokerLab.Gaming.Badgui.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PokerLab.Gaming.Badgui.dll": {}
+        }
+      },
+      "PokerLab.Gaming.FiveCardDraw/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "PokerLab.Gaming": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PokerLab.Gaming.FiveCardDraw.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PokerLab.Gaming.FiveCardDraw.dll": {}
+        }
+      },
+      "PokerLap.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "PokerLab.Gaming": "1.0.0",
+          "PokerLab.Gaming.Badgui": "1.0.0",
+          "PokerLab.Gaming.FiveCardDraw": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PokerLap.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PokerLap.Services.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "PokerLab.Gaming/1.0.0": {
+      "type": "project",
+      "path": "../PokerLab.Gaming/PokerLab.Gaming.csproj",
+      "msbuildProject": "../PokerLab.Gaming/PokerLab.Gaming.csproj"
+    },
+    "PokerLab.Gaming.Badgui/1.0.0": {
+      "type": "project",
+      "path": "../PokerLab.Gaming.Badgui/PokerLab.Gaming.Badgui.csproj",
+      "msbuildProject": "../PokerLab.Gaming.Badgui/PokerLab.Gaming.Badgui.csproj"
+    },
+    "PokerLab.Gaming.FiveCardDraw/1.0.0": {
+      "type": "project",
+      "path": "../PokerLab.Gaming.FiveCardDraw/PokerLab.Gaming.FiveCardDraw.csproj",
+      "msbuildProject": "../PokerLab.Gaming.FiveCardDraw/PokerLab.Gaming.FiveCardDraw.csproj"
+    },
+    "PokerLap.Services/1.0.0": {
+      "type": "project",
+      "path": "../PokerLap.Services/PokerLap.Services.csproj",
+      "msbuildProject": "../PokerLap.Services/PokerLap.Services.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "PokerLab.Gaming >= 1.0.0",
+      "PokerLap.Services >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Wagner\\.nuget\\packages\\": {}
@@ -34,7 +110,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLab.Gaming\\PokerLab.Gaming.csproj": {
+              "projectPath": "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLab.Gaming\\PokerLab.Gaming.csproj"
+            },
+            "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLap.Services\\PokerLap.Services.csproj": {
+              "projectPath": "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLap.Services\\PokerLap.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

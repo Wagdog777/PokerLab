@@ -5,6 +5,18 @@ VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerLab.UI", "PokerLab.UI.csproj", "{441CDB4B-F440-4CEB-B62A-A66EF76D2BAD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerLab.Gaming", "..\PokerLab.Gaming\PokerLab.Gaming.csproj", "{F661A52F-178A-4561-AAEF-90C53C9FEF45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerLab.Gaming.FiveCardDraw", "..\PokerLab.Gaming.FiveCardDraw\PokerLab.Gaming.FiveCardDraw.csproj", "{50FBC531-47FE-44E1-BB71-3A748A282061}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerLap.Services", "..\PokerLap.Services\PokerLap.Services.csproj", "{313795F3-F8BD-43E7-BD9D-D8D980A0F9FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerLab.Gaming.Badgui", "..\PokerLab.Gaming.Badgui\PokerLab.Gaming.Badgui.csproj", "{DB73DE64-F47B-491B-9568-7857322EFD11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit tests", "Unit tests", "{83EC03B0-6BDA-4473-A803-0149836DB85B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerLab.Gamine.FiveCardDraw.Tests", "..\PokerLab.Gamine.FiveCardDraw.Tests\PokerLab.Gamine.FiveCardDraw.Tests.csproj", "{14E95554-2031-4898-BCDF-22A75D9CC404}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +27,32 @@ Global
 		{441CDB4B-F440-4CEB-B62A-A66EF76D2BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{441CDB4B-F440-4CEB-B62A-A66EF76D2BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{441CDB4B-F440-4CEB-B62A-A66EF76D2BAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F661A52F-178A-4561-AAEF-90C53C9FEF45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F661A52F-178A-4561-AAEF-90C53C9FEF45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F661A52F-178A-4561-AAEF-90C53C9FEF45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F661A52F-178A-4561-AAEF-90C53C9FEF45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50FBC531-47FE-44E1-BB71-3A748A282061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50FBC531-47FE-44E1-BB71-3A748A282061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50FBC531-47FE-44E1-BB71-3A748A282061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50FBC531-47FE-44E1-BB71-3A748A282061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{313795F3-F8BD-43E7-BD9D-D8D980A0F9FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{313795F3-F8BD-43E7-BD9D-D8D980A0F9FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{313795F3-F8BD-43E7-BD9D-D8D980A0F9FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{313795F3-F8BD-43E7-BD9D-D8D980A0F9FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB73DE64-F47B-491B-9568-7857322EFD11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB73DE64-F47B-491B-9568-7857322EFD11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB73DE64-F47B-491B-9568-7857322EFD11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB73DE64-F47B-491B-9568-7857322EFD11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14E95554-2031-4898-BCDF-22A75D9CC404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14E95554-2031-4898-BCDF-22A75D9CC404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14E95554-2031-4898-BCDF-22A75D9CC404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14E95554-2031-4898-BCDF-22A75D9CC404}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{14E95554-2031-4898-BCDF-22A75D9CC404} = {83EC03B0-6BDA-4473-A803-0149836DB85B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {280B582D-39FE-4492-A07F-88629164855B}

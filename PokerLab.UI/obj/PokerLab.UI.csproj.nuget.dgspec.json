@@ -4,6 +4,182 @@
     "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLab.UI\\PokerLab.UI.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLab.Gaming.Badgui\\PokerLab.Gaming.Badgui.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLab.Gaming.Badgui\\PokerLab.Gaming.Badgui.csproj",
+        "projectName": "PokerLab.Gaming.Badgui",
+        "projectPath": "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLab.Gaming.Badgui\\PokerLab.Gaming.Badgui.csproj",
+        "packagesPath": "C:\\Users\\Wagner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLab.Gaming.Badgui\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Wagner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://az-za-ssnuget-devops.azurewebsites.net/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLab.Gaming\\PokerLab.Gaming.csproj": {
+                "projectPath": "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLab.Gaming\\PokerLab.Gaming.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLab.Gaming.FiveCardDraw\\PokerLab.Gaming.FiveCardDraw.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLab.Gaming.FiveCardDraw\\PokerLab.Gaming.FiveCardDraw.csproj",
+        "projectName": "PokerLab.Gaming.FiveCardDraw",
+        "projectPath": "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLab.Gaming.FiveCardDraw\\PokerLab.Gaming.FiveCardDraw.csproj",
+        "packagesPath": "C:\\Users\\Wagner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLab.Gaming.FiveCardDraw\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Wagner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://az-za-ssnuget-devops.azurewebsites.net/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLab.Gaming\\PokerLab.Gaming.csproj": {
+                "projectPath": "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLab.Gaming\\PokerLab.Gaming.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLab.Gaming\\PokerLab.Gaming.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLab.Gaming\\PokerLab.Gaming.csproj",
+        "projectName": "PokerLab.Gaming",
+        "projectPath": "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLab.Gaming\\PokerLab.Gaming.csproj",
+        "packagesPath": "C:\\Users\\Wagner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLab.Gaming\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Wagner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://az-za-ssnuget-devops.azurewebsites.net/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLab.UI\\PokerLab.UI.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -28,7 +204,80 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLab.Gaming\\PokerLab.Gaming.csproj": {
+                "projectPath": "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLab.Gaming\\PokerLab.Gaming.csproj"
+              },
+              "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLap.Services\\PokerLap.Services.csproj": {
+                "projectPath": "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLap.Services\\PokerLap.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLap.Services\\PokerLap.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLap.Services\\PokerLap.Services.csproj",
+        "projectName": "PokerLap.Services",
+        "projectPath": "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLap.Services\\PokerLap.Services.csproj",
+        "packagesPath": "C:\\Users\\Wagner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLap.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Wagner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://az-za-ssnuget-devops.azurewebsites.net/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLab.Gaming.Badgui\\PokerLab.Gaming.Badgui.csproj": {
+                "projectPath": "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLab.Gaming.Badgui\\PokerLab.Gaming.Badgui.csproj"
+              },
+              "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLab.Gaming.FiveCardDraw\\PokerLab.Gaming.FiveCardDraw.csproj": {
+                "projectPath": "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLab.Gaming.FiveCardDraw\\PokerLab.Gaming.FiveCardDraw.csproj"
+              },
+              "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLab.Gaming\\PokerLab.Gaming.csproj": {
+                "projectPath": "C:\\Users\\Wagner\\Documents\\Workspace\\ReferenceProjects\\PokerLab\\PokerLab.Gaming\\PokerLab.Gaming.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

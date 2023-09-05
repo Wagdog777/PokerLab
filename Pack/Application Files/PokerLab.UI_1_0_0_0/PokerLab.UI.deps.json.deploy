@@ -1,0 +1,78 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PokerLab.UI/1.0.0": {
+        "dependencies": {
+          "PokerLab.Gaming": "1.0.0",
+          "PokerLap.Services": "1.0.0"
+        },
+        "runtime": {
+          "PokerLab.UI.dll": {}
+        }
+      },
+      "PokerLab.Gaming/1.0.0": {
+        "runtime": {
+          "PokerLab.Gaming.dll": {}
+        }
+      },
+      "PokerLab.Gaming.Badgui/1.0.0": {
+        "dependencies": {
+          "PokerLab.Gaming": "1.0.0"
+        },
+        "runtime": {
+          "PokerLab.Gaming.Badgui.dll": {}
+        }
+      },
+      "PokerLab.Gaming.FiveCardDraw/1.0.0": {
+        "dependencies": {
+          "PokerLab.Gaming": "1.0.0"
+        },
+        "runtime": {
+          "PokerLab.Gaming.FiveCardDraw.dll": {}
+        }
+      },
+      "PokerLap.Services/1.0.0": {
+        "dependencies": {
+          "PokerLab.Gaming": "1.0.0",
+          "PokerLab.Gaming.Badgui": "1.0.0",
+          "PokerLab.Gaming.FiveCardDraw": "1.0.0"
+        },
+        "runtime": {
+          "PokerLap.Services.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PokerLab.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PokerLab.Gaming/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PokerLab.Gaming.Badgui/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PokerLab.Gaming.FiveCardDraw/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PokerLap.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

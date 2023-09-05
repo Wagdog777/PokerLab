@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PokerLab.Gaming\PokerLab.Gaming.csproj" />
+    <ProjectReference Include="..\PokerLap.Services\PokerLap.Services.csproj" />
+  </ItemGroup>
+
 </Project>
